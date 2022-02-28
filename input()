@@ -1,0 +1,4 @@
+>>>age = ("How old are you? ")
+How old are you? 22
+>>>print(int(age)+10)
+32
