@@ -6,3 +6,11 @@
 /
 // división sin float value, redondea a la baja por ejemplo 1,5 => 1.0, -1,5 => -2.0
 % residuo de la división
+
+
+-- COMPARISON OPERATORS
+=
+==
+!=
+>=
+<=
