@@ -7,5 +7,19 @@ else:
   print("ninguna de las anteriores")
 
 ---WHILE
-while "condicion":
-  print("acción que se realiza")
+secret_number = 3
+guess = int(input("Pon un número: "))
+while guess != secret_number :
+  guess = int(input("Pon un número: "))
+else:
+  print("Acertaste el número!")
+  
+--FOR
+x = 'abcd'
+for i in range(len(x)):
+    print("hello")
+
+hello
+hello
+hello
+hello
