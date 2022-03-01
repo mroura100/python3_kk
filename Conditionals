@@ -1,6 +1,11 @@
+---IF
 if first_condition:
   print("primera condición")
 else if second_condition:
   print("segunda condición")
 else:
   print("ninguna de las anteriores")
+
+---WHILE
+while "condicion"
+  print("acción que se realiza")
