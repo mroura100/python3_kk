@@ -1,4 +1,24 @@
 
+Bitwise operators look virtually the same across different programming languages:
+
+Operator	Example	Meaning
+&	a & b	Bitwise AND
+|	a | b	Bitwise OR
+^	a ^ b	Bitwise XOR (exclusive OR)
+~	~a	Bitwise NOT
+<<	a << n	Bitwise left shift
+>>	a >> n	Bitwise right shift
+
+All binary bitwise operators have a corresponding compound operator that performs an augmented assignment:
+
+Operator	Example	Equivalent to
+&=	a &= b	a = a & b
+|=	a |= b	a = a | b
+^=	a ^= b	a = a ^ b
+<<=	a <<= n	a = a << n
+>>=	a >>= n	a = a >> n
+
+
 is_hungry = False
 if(not is_hungry):
   print("You are not hungry")
