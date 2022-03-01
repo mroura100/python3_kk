@@ -1,1 +1,14 @@
 
+is_hungry = False
+if(not is_hungry):
+  print("You are not hungry")
+else:
+  print("You are hungry")
+  
+----
+x = 6
+y = 7
+print(x == y)
+
+output=>false
+
